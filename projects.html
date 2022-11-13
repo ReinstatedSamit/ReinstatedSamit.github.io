@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Sakib Chowdhury</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/kube.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/custom.min.css" />
+	<link rel="stylesheet" href="css/card_add.css" />
+    <link rel="shortcut icon" href="img/favicon.png" />
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:700,700' rel='stylesheet' type='text/css'>
+	<style>
+		.intro h1:before {
+			/* Edit this with your name or anything else */
+			content: 'Hey!! There';
+		}   
+	</style>
+</head>
+<body>
+	<!-- Navigation -->
+	<div class="main-nav">
+		<div class="container">
+			<header class="group top-nav">
+				<div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
+				    <span class="logo">Sakib Chowdhury</span>
+				</div>
+			    <nav id="navbar-1" class="navbar item-nav">
+				    <ul>
+				        <li><a href="index.html">About</a></li>
+						<li><a href="research.html">Research</a></li>
+				        <li class="active"><a href="projects.html">Projects</a></li>
+						<li><a href="publications.html">Publications</a></li>
+						<li><a href="contacts.html">Contacts</a></li>
+				        <!--<li><a href="#skills">Skills</a></li>-->
+				    </ul>
+				</nav>
+			</header>
+		</div>
+	</div>
+
+	<!-- Projects -->
+	<div class="work section second" id="projects">
+		<div class="container">
+			<h1>Projects</h1>
+			<ul class="work-list">
+				Currently you can have a look at some of my other projects
+                in my <a href="https://github.com/sakibchowdhury131/">Github</a> repositories. <br>
+
+				
+				
+				<br><br><br>
+				<div class="card">
+					<div class="container">
+						<li><h2><a href="#">Robotic Arm with Computer Vision for Sorting Objects Based on Their Shapes</a></h2></li>
+						<img src="img/robotic_arm2.jpg" width="400" height="400">
+						<img src="img/demo.gif" width="550" height="550"><br><br><br>
+						This project was done as part of a competition organized by BUET Robotic society.
+						Our team was champion in the competition. We utilized Image Processing Techniques
+						to determine the shape of objects on a running conveyor belt while a robotic arm kept
+						sorting objects. Later, the project was also showcased on "Digital Bangladesh 2017". Details of the project can be found <a href="https://github.com/sakibchowdhury131/Industrial-Automation-Challenge-2017.git">here</a>.
+					</div>
+				</div>
+                
+
+				<br><br><br>
+				<div class="card">
+					<div class="container">
+				<li><h2><a href="#">Bangla ESPNET - Text to Speech (TTS) </a></h2></li>
+                <br>
+                <img src="img/online-inference.png" width="900"><br><br><br>
+				<a href= 'https://github.com/espnet/espnet'>ESPNET </a> is an end to end speech processing toolkit and it was developed by Carnegie Mellon University. 
+				This toolkit was primarily trained for English and Japanese language. In this project, we trained ESPNET - TTS on Google SLR Bangla dataset (360 hrs of Raw Audio) and built 
+				an end to end bangla TTS inference system. 
+					</div>
+				</div>
+                
+
+
+				<br><br><br>
+				<div class="card">
+					<div class="container">
+				<li><h2><a href="#">Bangla ESPNET - Automatic Speech Recognition (ASR) </a></h2></li>
+                <br>
+                <img src="img/16316Empeek.png" width="900"><br><br><br>
+				Mozilla released common voice dataset with 400 hours of Bangla Dataset. We trained <a href= 'https://github.com/espnet/espnet'>ESPNET ASR</a> for Bangla Language with the combination 
+				of both Google SLR and mozilla common voice dataset (Total 760 Hrs). 
+					</div>
+				</div>
+
+
+				<br><br><br>
+				<div class="card">
+					<div class="container">
+				<li><h2><a href="#">GAN - Face Generate</a></h2></li>
+                <br>
+                <img src="img/Screenshot from 2022-09-27 14-14-34.png" width="500" height="500"><br><br><br>
+                This project is a part of my learning GAN for the first time. It was trained on 200 images of my own face. Extremely small dataset, right? ;3 <br>
+				Implemented this on google colab. This picture depicts the output of the training after 10000 epochs.
+				Performance is not decent. But the shape of the face can be recognized. :3
+
+				implementation can be found <a href="https://github.com/sakibchowdhury131/GAN">here</a>.
+					</div>
+				</div>
+
+
+				<br><br><br>
+				<div class="card">
+					<div class="container">
+                <li><h2><a href="#">Flappy Bird - RL Agent</a></h2></li>
+                <br>
+                <img src="img/ezgif.com-gif-maker (1).gif" onclick="enlargeImg()" id="img1"><br>
+                I did this project as part of my personal interest in the field of Reinforcement Learning. This autonomous agent was powered by Deep Q-Learning. It was trained on my CPU and it took pretty long 
+                time to train. :3 . Implementation can be found <a href="https://github.com/sakibchowdhury131/RL.git">here</a>.
+				</div>
+				</div>
+
+
+				<br><br><br>
+				<div class="card">
+					<div class="container">
+				<li><h2><a href="#">Track Me - Vehicle Tracking System</a></h2></li>
+                <br>
+                <img src="img/E6eqNKsVgAUODpp.jpeg" width="400" height="400">
+				<img src="img/received_1744270969095954.webp" width="550" height="550"><br><br><br>
+                This project is the design of a vehicle tracking system. This hardware is connected to several sensors: voltage measurement, current measurement, accelerometer, GPS and bluetooth. It is connected to 
+				the internet through GSM technology. It directly pushes data to google firebase through MQTT communication. <br>
+				Users can integrate this device with their vehicles to monitor and track the movement, voltage level etc of their vehicles.
+				The driver APK file can be found here: <a href="https://github.com/sakibchowdhury131/TrackMe_VTS">here</a>. <br>
+				The schematic files can be found here: <a href="https://oshwlab.com/sakibchowdhury131/gps_tracker_v2-0#P4">here</a>. <br><br>
+
+				Sample App Interface: <br>
+				<img src="img/Screenshot_20220927-144036_TrackMe.jpg" width="270" height="600"> 
+				<img src="img/Screenshot_20220927-144044_TrackMe.jpg" width="270" height="600">
+				<img src="img/Screenshot_20220927-144119_TrackMe.jpg" width="270" height="600">
+				<br>
+
+				An extension of this project is to monitor the power consumption of vehicles. This device can be interfaced with our power monitoring application to access a 
+				realtime database to monitor the power consumption of vehicles. 
+				<br><br><br>
+				<img src="img/Screenshot from 2022-09-27 23-51-37.png" width="800" height="800">
+				</div>
+				</div>
+
+
+
+				
+				
+				
+
+
+				
+				
+				
+				
+                <br><br><br>
+				<div class="card">
+					<div class="container">
+				<li><h2><a href="projects/PRIVACY_PRESERVING_GPS_WITH_OPEN_STREET_MAP_INTERFACE_EEE416.html">Privacy preserving GPS with open street map interface</a></h2></li>
+				<br>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/Zvk5PcIrFHE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                This project was a part of micro-processor lab course during 4th year of my undergraduate program at <a href="https://buet.ac.bd">BUET</a>. The system
+                efficiently incorporated IoT and web frameworks to establish an interesting tracking system. For more information, <a href="projects/PRIVACY_PRESERVING_GPS_WITH_OPEN_STREET_MAP_INTERFACE_EEE416.html">click here</a> 
+					</div>
+				</div>
+
+
+
+				<br><br><br>
+
+				<div class="card">
+					<div class="container">
+				<li><h2><a href="#">MSP430 - Drivers</a></h2></li>
+				<br>
+				<img src="img/msp430.webp"><br>
+                This <a href="https://github.com/sakibchowdhury131/msp430">Repository</a> contains drivers for MSP430 micro-controller family designed in C/C++.
+					</div>
+				</div>
+
+				<br><br><br>
+				<div class="card">
+					<div class="container">
+				<li><h2><a href="#">Movie Night</a></h2></li>
+				<br>
+				<img style="width: 500px;" src="img/Screenshot from 2022-09-27 13-27-52.png">
+				<img style="width: 500px;" src="img/Screenshot from 2022-09-27 13-27-38.png"><br>
+				
+                This <a href="https://github.com/sakibchowdhury131/movieNight">Repository</a> contains the built files and source codes for a movie synching application. 
+				I designed this application as a fun project to watch movies with friends during COVID 19 lockdown. Most of the online movie syncing platforms require stable internet connectivity 
+				and if one person has unstable internet connection, others get disrupted. I designed this application to sync offline movies to function even during extreme slow internet
+				connection. <br>
+				This app was designed in python for both windows and linux platforms. Have fun using it :3
+					</div>
+				</div>
+
+				<br><br><br>
+				<div class="card">
+					<div class="container">
+				<li><h2><a href="#">AC Equipment Power Controller</a></h2></li>
+				<br>
+				<img style="width: 800px;" src="img/Screenshot from 2022-09-27 13-42-01.png"><br>
+				
+                This project is an AC equipment power controller circuit. Designs of the hardware can be found <a href="https://oshwlab.com/sakibchowdhury131/triac_iot_taru_notouch">here</a>.<br><br>
+				This hardware modulates the triggering time of triac bridges to control the intensity of Alternating Current Supported Devices. This can be primarily used with generic AC
+				equipments such as light bulbs. It cannot control the power of LED bulbs. 
+
+				<br>
+				<iframe src="https://drive.google.com/file/d/1vIfEmfwVd8GHtlgKuiF_k_0VnCV_WH9I/preview" width="900" height="450" allow="autoplay"></iframe>
+					</div>
+				</div>
+
+				<br><br><br>
+				<div class="card">
+					<div class="container">
+				<li><h2><a href="#">4 Bit SAP Computer</a></h2></li>
+				<br>
+				
+                This <a href="https://github.com/sakibchowdhury131/SAP_4BIT_VERILOG">repository</a> is the design of a 4 Bit SAP computer designed in VERILOG HDL. Total 16 instructions were implemented. 
+				<br>
+				<p>
+					4 Bit Computer in Verilog [SAP]<br>
+					- Instruction Set:<br>
+						- Add A, B <br>
+						- Sub A, B<br>
+						- XCHG B, A<br>
+						- mov B, [address]<br>
+						- out B<br>
+						- jnz Address<br>
+						- RCR A<br>
+						- mov B, BYTE<br>
+						- jmp Address<br>
+						- push A<br>
+						- pop A<br>
+						- CALL Addr<br>
+						- RET<br>
+						- xor A, [Addr]<br>
+						- test B, BYTE<br>
+						- HLT<br>
+
+					This computer is designed in such a fashion so that all the instructions are executed sequentially.
+					The instruction pointer for the next instruction is passed at the end of each instruction.<br>
+				</p>
+			</ul>
+		</div>
+	</div>
+
+
+	<!-- Quote -->
+	<!--
+	<div class="quote">
+		<div class="container text-centered">
+			<h1>"Part of the journey is the end".</h1>
+		</div>
+	</div>
+	-->
+
+	<footer>
+		<div class="container">
+			<div class="units-row">
+			    <div class="unit-50">
+			    	<p>Dhaka, Bangladesh</p>
+			    </div>
+			    <div class="unit-50">
+					<ul class="social list-flat right">
+						<li><a href="mailto:sakibchowdhury131@gmail.com"><i class="fa fa-send"></i></a></li>
+						<li><a href="http://twitter.com/sakibchowdhury6"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="http://facebook.com/sakib97"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/sakib-chowdhury97/"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="https://scholar.google.com/citations?user=nhwkkfAAAAAJ&hl=en"><i class="fa fa-google"></i></a></li>
+						<li><a href="https://github.com/sakibchowdhury131"><i class="fa fa-github"></i></a></li>
+						
+					</ul>
+			    </div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Javascript -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/typed.min.js"></script>
+    <script src="js/kube.min.js"></script>
+    <script src="js/site.js"></script>
+	<script src="js/click_to_enralge.js"></script>
+    <script>
+		function newTyped(){}$(function(){$("#typed").typed({
+		// Change to edit type effect
+		strings: ["Sakib Chowdhury"],
+
+		typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
+    </script>
+</body>
+</html>
